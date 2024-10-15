@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'TT Lakes Regular';
+    src: url('./fonts/TTLakes/TTLakes-Regular.eot');
+    src: local('TT Lakes Regular'), local('TTLakes-Regular'),
+        url('./fonts/TTLakes/TTLakes-Regular.eot') format('embedded-opentype'),
+        url('./fonts/TTLakes/TTLakes-Regular.woff') format('woff'),
+        url('./fonts/TTLakes/TTLakes-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Bold';
+    src: url('./fonts/TTLakes/TTLakes-Bold.eot');
+    src:local('TT Lakes Bold'), local('TTLakes-Bold'),
+        url('./fonts/TTLakes/TTLakes-Bold.eot') format('embedded-opentype'),
+        url('./fonts/TTLakes/TTLakes-Bold.woff') format('woff'),
+        url('./fonts/TTLakes/TTLakes-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Medium';
+    src: url('./fonts/TTLakes/TTLakes-Medium.eot');
+    src: local('TT Lakes Medium'), local('TTLakes-Medium'),
+        url('./fonts/TTLakes/TTLakes-Medium.eot') format('embedded-opentype'),
+        url('.fonts/TTLakes/TTLakes-Medium.woff') format('woff'),
+        url('./fonts/TTLakes/TTLakes-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    height: 234px;
+    padding: 19px 0 19px 8px;
+    background: #F8F8F8;
+    margin: 0;
+}
+
+.title {
+    color: #7E7E82;
+    font-family: "TT Lakes Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+    margin: 0;
+    width: auto;
+    padding: 16px 16px;
+    border-top: 1px solid rgba(217, 255, 245, 1);
+    background: linear-gradient(150deg, #F8F8F8 0%, #FFF 98.61%);
+}
+
+.swiper-slide__image {
+    border: 2px solid rgba(234, 234, 234, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    height: 72px;
+    min-width: 240px;
+    position: relative;
+    margin: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.swiper-wrapper {
+    padding-bottom: 16px;
+}
+
+
+.swiper-slide__button { 
+    margin: 16px 16px 16px 0; 
+}
+
+.image--BitmapLenovo { margin: 20px 0 20px 16px; }
+.image--BitmapSamsung { margin: 17px 0 16.5px 16px; }
+.image--BitmapApple { margin: 12px 0 16px 16px; }
+.image--BitmapViewSonic { margin: 26px 0 25px 14px; }
+.image--BitmapBosch { margin: 21.7px 0 21.7px 16px; }
+.image--BitmapHP { margin: 10px 0 10px 10px; }
+.image--BitmapAcer { margin: 24px 0 24px 16px; }
+.image--BitmapSony { margin: 23px 0 23.4px 14px; }
+
+.swiper-pagination {
+    padding-top: 16px;
+}
+.swiper-pagination-bullet {
+    width: 12px !important; 
+    height: 12px !important;
+    background: rgb(129, 129, 129) !important;
+} 
+
+body::after {
+    content: "";
+    width: 24px;
+    height: 120px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-image: linear-gradient(to right, #ffffff00, #ffffffe0);
+    z-index: 1;
+}
+
+.swiper-slide__image:hover {
+    border: 2px solid rgba(234, 234, 234, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    height: 72px;
+    min-width: 240px;
+    opacity: 0.33;
+    transition: 0.9s;
+}
+
+
+
+
